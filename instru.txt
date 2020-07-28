@@ -1,0 +1,19 @@
+  Numa lei, "prazos" estão sempre acompanhados de "dispositivos". Exemplo:
+  
+  Art. 396.  Nos procedimentos ordinário e sumário, oferecida a denúncia ou queixa, o juiz, se não a rejeitar liminarmente, recebê-la-á e ordenará a citação do acusado para responder à acusação, por escrito, no prazo de 10 (dez) dias.
+  
+  1ª Detalhe - ler a lista. Tornar o programa capaz de reconhecer e estruturar um código.
+  exemplo: http://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm
+  
+  2ª Detalhe - reconhecer o prazo dentro de do dispositivo: eles podem aparecer ~número ~(por extenso) ~qualificação.
+  Qualificação pode ser dia ou dias, mes ou meses, ano ou anos.
+  
+ A SAÍDA DO PROGRAMA TERÁ QUE SER:
+ 
+ >Entre com o número de questões (int):
+ >PRINTAR N QUESTÕES, UMA VEZ
+ >PRINTAR ENUNCIADO COM O DISPOSITIVO SEM O PRAZO
+ >PRINTAR MÚLTIPLA ESCOLHA (A,B,C,D,E)
+ >UMA DAS ALTERNATIVAS TEM QUE TER O PRAZO CORRETO
+ >2/5 DOS PRAZOS QUE COMPÕE AS OUTRAS ALTERNATIVAS PRECISAM SER ALEATORIAMENTE ESCOLHIDOS DA LISTA DE PRAZOS POSSÍVEIS DO CÓDIGO
+ >2/5 DOS PRAZOS QUE COMPÕE AS OUTRAS ALTERNATIVAS PRECISAM SER ALEATORIAMENTE ESCOLHIDOS DA LISTA DE PRAZOS MAIS COMUNS DO CÓDIGO
